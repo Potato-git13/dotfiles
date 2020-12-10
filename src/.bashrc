@@ -117,6 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 # PATHs
-if [-f ~/.bash_paths ]; then
+if [ -f ~/.bash_paths ]; then
 	. ~/.bash_paths
 fi
