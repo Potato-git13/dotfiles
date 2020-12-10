@@ -2,4 +2,4 @@ export PATH=/home/potato/C/Kosmos/src:$PATH
 export PATH=/home/potato/bin:$PATH
 export PATH=/home/potato/.local/bin:$PATH
 export PATH=/home/potato/Python/alarm:$PATH
-export PATH=/home/potato/C/sCnfetch/bin:$PATH
+export PATH=/home/potato/C/sCnfetchc/bin:$PATH
