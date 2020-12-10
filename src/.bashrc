@@ -117,7 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 # PATHs
-export PATH=/home/potato/C/Kosmos/src:$PATH
-export PATH=/home/potato/bin:$PATH
-export PATH=/home/potato/.local/bin:$PATH
-export PATH=/home/potato/Python/alarm:$PATH
+if [-f ~/.bash_paths ]; then
+	. ~/.bash_paths
+fi
