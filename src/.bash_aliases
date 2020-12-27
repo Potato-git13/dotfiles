@@ -25,6 +25,7 @@ alias mkd='mkdir -pv'
 alias rm='rm -iv'
 alias mv='mv -iv'
 alias cp='cp -iv'
+alias make='s make'
 #camera
 alias rmcam='s modprobe -r uvcvideo'
 alias addcam='s modprobe uvcvideo'
