@@ -1,7 +1,6 @@
 # My aliases
 
 #random
-alias maek='make'
 alias _='sudo -s'
 alias s='sudo'
 alias c='clear'
@@ -30,3 +29,8 @@ alias make='s make'
 #camera
 alias rmcam='s modprobe -r uvcvideo'
 alias addcam='s modprobe uvcvideo'
+#compiling
+alias maek='make'
+alias cdwm='make clean install --directory=/home/potato/dwm-stuff/dwm-install'
+alias csls='make clean install --directory=/home/potato/dwm-stuff/slstatus'
+alias cstt='make clean install --directory=/home/potato/dwm-stuff/st-transparency'
