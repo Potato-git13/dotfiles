@@ -12,7 +12,7 @@ alias cds='du -cksh' #cds - Current Dir Size
 #git
 alias g='git'
 alias gti='git'
-alias gpsh='git push -u origin main'
+alias gpsh='git push origin main'
 alias gadd='git add'
 alias gcmt='git commit'
 #apt
