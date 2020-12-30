@@ -8,6 +8,7 @@ alias c='clear'
 alias back='cd ..'
 alias sdn='shutdown now'
 alias sdnr='shutdown now -r'
+alias cds='du -cksh' #cds - Current Dir Size
 #git
 alias g='git'
 alias gti='git'
