@@ -9,7 +9,7 @@ alias sdn='shutdown now'
 alias sdnr='shutdown now -r'
 alias cds='du -cksh' #cds - Current Dir Size
 #yt
-alias ytaudio='yt -x -f bestaudio/best' # get only and best audio
+alias yta='yt -x -f bestaudio/best' # get only and best audio
 alias yt='youtube-dl --add-metadata -i' # normal youtube-dl
 #git
 alias g='git'
