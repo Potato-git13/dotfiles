@@ -10,8 +10,8 @@ alias sdnr='shutdown now -r'
 alias cds='du -cksh' #cds - Current Dir Size
 alias lsa='ls -a'
 #yt
-alias yta='yt -x -f bestaudio/best' # get only and best audio
 alias yt='youtube-dl --add-metadata -i' # normal youtube-dl
+alias yta='yt -x -f bestaudio/best' # get only and best audio
 #git
 alias g='git'
 alias gti='git'
@@ -26,15 +26,18 @@ alias aptarm='s apt autoremove'
 alias aptrm='s apt remove'
 #replacing existing
 alias mkd='mkdir -pv'
+alias mkdir='mkdir -pv'
 alias rm='rm -iv'
 alias mv='mv -iv'
 alias cp='cp -iv'
 alias make='s make'
+alias mount='s mount'
 #camera
 alias rmcam='s modprobe -r uvcvideo'
 alias addcam='s modprobe uvcvideo'
 #compiling
 alias maek='make'
+alias mkae='make'
 alias cdwm='make clean install --directory=/home/potato/dwm-stuff/dwm-install'
 alias csls='make clean install --directory=/home/potato/dwm-stuff/slstatus'
 alias cstt='make clean install --directory=/home/potato/dwm-stuff/st-transparency'
