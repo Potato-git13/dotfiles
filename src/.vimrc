@@ -1,17 +1,17 @@
-" spaces instead of a tab
-set expandtab
+" set tab size to 4 spaces
 
-" smart tab
-set smarttab
-
-set shiftwidth=4
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
-" Linebreak on 500 characters
-set lbr
-set tw=500
+" convert tabs to spaces
 
-set ai "Auto indent
-set si "Smart indent
-set wrap "Wrap lines
+set expandtab
+set autoindent
+set fileformat=unix
 
+" jj is esc
+imap jk <Esc>
+
+" clipboard
+set clipboard=unnamedplus

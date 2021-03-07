@@ -1,5 +1,6 @@
 # My aliases
 
+# alias sudo='doas'
 #random
 alias _='sudo -s'
 alias s='sudo'
@@ -15,7 +16,7 @@ alias yta='yt -x -f bestaudio/best' # get only and best audio
 #git
 alias g='git'
 alias gti='git'
-alias gpsh='git push origin main'
+alias gpsh='git push origin'
 alias gadd='git add'
 alias gcmt='git commit'
 #apt
@@ -41,3 +42,7 @@ alias mkae='make'
 alias cdwm='make clean install --directory=/home/potato/dwm-stuff/dwm-install'
 alias csls='make clean install --directory=/home/potato/dwm-stuff/slstatus'
 alias cstt='make clean install --directory=/home/potato/dwm-stuff/st-transparency'
+#lol
+alias yeet='sudo apt autoremove --purge'
+alias gimme='sudo apt install'
+alias relax='sudo apt update && sudo apt upgrade'

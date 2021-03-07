@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[1;34m\][\d \T]  \[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[1;33m\]\$\[\033[00m\] '
+    PS1='[\[\033[01;32m\]\u@\h\[\033[00m\]]:\[\033[01;34m\]\w\[\033[1;33m\]\$\[\033[00m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}[\d \T]  \u@\h:\w\$ '
 fi
@@ -102,8 +102,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.aliasrc ]; then
+    . ~/.aliasrc
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -118,6 +118,6 @@ if ! shopt -oq posix; then
 fi
 
 # PATHs
-if [ -f ~/.bash_paths ]; then
-	. ~/.bash_paths
+if [ -f ~/.pathrc ]; then
+	. ~/.pathrc
 fi
