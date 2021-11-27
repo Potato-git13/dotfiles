@@ -26,4 +26,6 @@ fi
 if [ -f ~/.pathrc ]; then
     . ~/.pathrc
 fi
-#eval "$(abra hook zsh)"
+if [ -f ~/.themesrc ]; then
+    . ~/.themesrc
+fi

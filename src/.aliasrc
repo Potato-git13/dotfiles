@@ -1,3 +1,4 @@
+#!/bin/sh
 # My aliases
 
 # alias sudo='doas'
@@ -10,6 +11,7 @@ alias sdn='shutdown now'
 alias sdnr='shutdown now -r'
 alias cds='du -cksh' #cds - Current Dir Size
 alias lsa='ls -a'
+alias elf='cd /media/potato/Windows/Users/lanve/Desktop/map2/'
 #yt
 alias yt='youtube-dl --add-metadata -i' # normal youtube-dl
 alias yta='yt -x -f bestaudio/best' # get only and best audio
@@ -45,4 +47,4 @@ alias cstt='make clean install --directory=/home/potato/dwm-stuff/st-transparenc
 #lol
 alias yeet='sudo apt autoremove --purge'
 alias gimme='sudo apt install'
-alias relax='sudo apt update && sudo apt upgrade'
+alias relax='sudo apt update && sudo apt upgrade && aptarm'
