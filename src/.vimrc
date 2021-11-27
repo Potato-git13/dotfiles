@@ -10,7 +10,7 @@ set expandtab
 set autoindent
 set fileformat=unix
 
-" jj is esc
+" jk is esc
 imap jk <Esc>
 
 " clipboard
