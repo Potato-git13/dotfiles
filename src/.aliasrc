@@ -34,7 +34,6 @@ alias rm='rm -iv'
 alias mv='mv -iv'
 alias cp='cp -iv'
 alias make='s make'
-alias mount='s mount'
 #camera
 alias rmcam='s modprobe -r uvcvideo'
 alias addcam='s modprobe uvcvideo'
