@@ -7,7 +7,7 @@ set shiftwidth=4
 " convert tabs to spaces
 
 set expandtab
-set autoindent
+" set autoindent
 set fileformat=unix
 
 " jk is esc

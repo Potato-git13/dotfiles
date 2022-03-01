@@ -1,13 +1,10 @@
 #!/bin/sh
 # My aliases
 
-# alias sudo='doas'
-#random
-alias _='sudo -s'
 alias s='sudo'
 alias c='clear'
 alias back='cd ..'
-alias sdn='shutdown now'
+alias sdn='shutdown -P now'
 alias sdnr='shutdown now -r'
 alias cds='du -cksh' #cds - Current Dir Size
 alias lsa='ls -a'
@@ -22,18 +19,18 @@ alias gpsh='git push origin'
 alias gadd='git add'
 alias gcmt='git commit'
 #apt
-alias aptgrade='s apt upgrade'
-alias aptdate='s apt update'
-alias apti='s apt install'
-alias aptarm='s apt autoremove'
-alias aptrm='s apt remove'
+alias aptgrade='sudo apt upgrade'
+alias aptdate='sudo apt update'
+alias apti='sudo apt install'
+alias aptarm='sudo apt autoremove'
+alias aptrm='sudo apt remove'
 #replacing existing
 alias mkd='mkdir -pv'
 alias mkdir='mkdir -pv'
 alias rm='rm -iv'
 alias mv='mv -iv'
 alias cp='cp -iv'
-alias make='s make'
+#alias make='s make'
 #camera
 alias rmcam='s modprobe -r uvcvideo'
 alias addcam='s modprobe uvcvideo'
