@@ -26,6 +26,3 @@ fi
 if [ -f ~/.pathrc ]; then
     . ~/.pathrc
 fi
-if [ -f ~/.themesrc ]; then
-    . ~/.themesrc
-fi

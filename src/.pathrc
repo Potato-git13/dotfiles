@@ -2,6 +2,3 @@
 
 export PATH=/home/potato/bin:$PATH
 export PATH=/home/potato/.local/bin:$PATH
-export PATH=/home/potato/code/Python/alarm:$PATH
-export PATH=/home/potato/code/C/sCnfetchc/bin:$PATH
-export PATH=/home/potato/.cargo/bin:$PATH
