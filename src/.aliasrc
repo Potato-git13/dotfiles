@@ -6,21 +6,23 @@ alias c='clear'
 alias sdn='shutdown -P now'
 alias sdnr='shutdown now -r'
 alias cds='du -cksh' #cds - Current Dir Size
-#yt
+# yt
 alias yt='youtube-dl --add-metadata -i' # normal youtube-dl
 alias yta='youtube-dl -x -f bestaudio/best' # get only and best audio
-#git
+# git
 alias gti='git'
-#apt
+# apt
 alias aptgrade='sudo apt upgrade'
 alias aptdate='sudo apt update'
 alias apti='sudo apt install'
 alias aptarm='sudo apt autoremove'
-#replacing existing
+alias sysautoupdate='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+# replacing existing
 alias mkdir='mkdir -pv'
 alias rm='rm -iv'
 alias mv='mv -iv'
 alias cp='cp -iv'
-#compiling
+alias vim='nvim'
+# compiling
 alias maek='make'
 alias mkae='make'

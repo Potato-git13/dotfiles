@@ -12,6 +12,15 @@ set fileformat=unix
 
 " jk is esc
 imap jk <Esc>
+vmap jk <Esc>
 
 " clipboard
 set clipboard=unnamedplus
+
+syntax on
+
+set hlsearch
+set incsearch
+
+set number
+set ruler
